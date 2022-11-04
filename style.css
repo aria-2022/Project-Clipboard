@@ -1,5 +1,95 @@
-.logo {
-    width: 20px;
-    height: 5px;
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Fasthand&family=Poppins:ital,wght@0,300;0,400;0,700;1,600&display=swap" rel="stylesheet">);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
 
 }
+
+/* ### Primary
+
+- Strong Cyan: hsl(171, 66%, 44%)
+- Light Blue: hsl(233, 100%, 69%)
+
+### Neutral
+
+- Dark Grayish Blue: hsl(210, 10%, 33%)
+- Grayish Blue: hsl(201, 11%, 66%) */
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+header {
+    text-align: center;
+    height: 100%;
+}
+
+.header-bg {
+    height: 40%;
+    background-image: url(./images/bg-header-mobile.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo {
+    /* display: inline-block; */
+    height: 125px;
+}
+
+.header-text {
+    margin: 0 5%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    margin: 10% 0;
+}
+
+.header-buttons {
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10% 0;
+
+
+}
+
+button {
+    width: 300px;
+    border-radius: 20px;
+    padding: 15px 0;
+    /* box-shadow: 0px 2px 6px #333; */
+    color: white;
+    font-weight: 600;
+
+}
+
+button:nth-child(1) {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0px 2px 3px hsl(171, 66%, 44%);
+}
+
+button:nth-child(2) {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0px 2px 3px hsl(233, 100%, 69%);
+}
+
+
+
+
+
